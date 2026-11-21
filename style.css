@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "SyneMono";
+    src: url("./fonts/SyneMono-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Sixtyfour";
+    src: url("./fonts/Sixtyfour-Regular.ttf") format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0048B8;
+    color: white;
+    font-family: "SyneMono", monospace;
+    font-size: 1rem;
+    line-height: 1.6; /* Improves readability for monospace fonts */
+}
+
+h1, h2, h3 {
+    font-family: "Sixtyfour", sans-serif;
+}
+
+h2 { font-size: 1.5rem; }
+
+h3 {
+    font-size: 1rem;
+    margin-top: 30px;
+}
+
+ul {
+    padding-left: 80px;
+    margin-top: -5px;
+}
+
+/* Bio Layout (Desktop) */
+.my-bio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.my-bio-para {
+    flex: 1; 
+}
+
+.my-bio-media {
+    flex: 0 0 300px;
+    margin: 0;
+    text-align: right;
+}
+
+.my-bio-media img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
+}
+
+/* Passion Project Section (Desktop)*/
+.passion-project {
+    margin-bottom: 20px;
+}
+
+
+.passion-project img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.project-desc {
+    max-width: 750px; 
+    margin: 20px auto;
+    text-align: center;
+}
+
+.project-links-label {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.project-links {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+}
+
+.project-links a {
+    color: white;
+    text-underline-offset: 4px;
+    transition: opacity 0.2s ease;
+    text-align: center;
+}
+
+.project-links a:hover {
+    opacity: 0.75;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .my-bio {
+        flex-direction: column;
+        margin: 20px auto;
+    }
+
+    .my-bio-media {
+        flex: none;
+        width: 100%;
+        max-width: 300px;
+    }
+}

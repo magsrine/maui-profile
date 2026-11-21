@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<maui_passion_projects>
+    <project>
+        <title>Celestial King Computer Graphics and Sprites</title>
+        <description>Celestial King is a game project I'm working on as an artist. Where I specifically illustrate the characters and environments, like concept arts, cutscenes, and 2D sprites. The game is a 2D turn-based strategy game with a fantasy theme, that is currently in development.</description>
+        <date>2026-12-23</date>
+    </project>
+
+    <project>
+        <title>Aeris Tennis</title>
+        <description>Aeris Tennis is another game project I'm working on as an illustrator. Mainly working on cutscenes or computer graphics. It is a 2D turn-based game with themes of tennis and steampunk. It's currently published as a demo, and working to improve and add more content to the game.</description>
+        <date>2026-04-05</date>
+    </project>
+
+    <project>
+        <title>Portfolio Website</title>
+        <description>I'm planning to create a portfolio website to showcase my work as an artist. The website will include sections for my projects, illustrations, and contact information. It will be designed to be visually appealing and user-friendly as I also want to make it easy for potential clients or employers to find and contact me.</description>
+        <date>2027-00-00</date>
+    </project>
+</maui_passion_projects>
